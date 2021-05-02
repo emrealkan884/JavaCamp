@@ -20,4 +20,5 @@ public class Instructor extends User {
 		this.salary = salary;
 	}
 	
+	
 }
