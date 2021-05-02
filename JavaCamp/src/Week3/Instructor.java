@@ -1,3 +1,4 @@
+package Week3;
 
 public class Instructor extends User {
 	private int salary;

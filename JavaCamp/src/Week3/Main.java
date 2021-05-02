@@ -1,3 +1,4 @@
+package Week3;
 
 public class Main {
 
@@ -24,6 +25,8 @@ public class Main {
 	
 	StudentManager studentManager = new StudentManager();
 	studentManager.add(student1);
+	
+	
 
 	}
 

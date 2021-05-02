@@ -1,31 +1,31 @@
-package Week3;
+package Week4.Entities;
 
-public class User {
-	private int age;
-	private String nationalIdentity;
+public class Customer {
 	private int id;
+	private String nationalIdentity;
 	private String firstName;
 	private String lastName;
+	private int birthYear;
 	
-	public User() {
+	public Customer() {
 		
 	}
-	
-	public User(int age, String nationalIdentity, int id, String firstName, String lastName) {
+
+	public Customer(int id, String nationalIdentity, String firstName, String lastName, int birthYear) {
 		super();
-		this.age = age;
-		this.nationalIdentity = nationalIdentity;
 		this.id = id;
+		this.nationalIdentity = nationalIdentity;
 		this.firstName = firstName;
 		this.lastName = lastName;
+		this.birthYear = birthYear;
 	}
 
-	public int getAge() {
-		return age;
+	public int getCustomerId() {
+		return id;
 	}
 
-	public void setAge(int age) {
-		this.age = age;
+	public void setCustomerId(int id) {
+		this.id = id;
 	}
 
 	public String getNationalIdentity() {
@@ -34,14 +34,6 @@ public class User {
 
 	public void setNationalIdentity(String nationalIdentity) {
 		this.nationalIdentity = nationalIdentity;
-	}
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
 	}
 
 	public String getFirstName() {
@@ -59,5 +51,15 @@ public class User {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+
+	public int getBirthYear() {
+		return birthYear;
+	}
+
+	public void setBirthYear(int birthYear) {
+		this.birthYear = birthYear;
+	}
+	
+	
 	
 }
