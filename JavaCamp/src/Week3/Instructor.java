@@ -18,7 +18,6 @@ public class Instructor extends User {
 
 	public void setSalary(int salary) {
 		this.salary = salary;
-		
 	}
 	
 }
